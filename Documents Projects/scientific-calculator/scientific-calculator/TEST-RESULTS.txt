@@ -1,0 +1,359 @@
+=== ENGINE TESTS: node tests.js ===
+PASS  [DEG] "5 + 5" -> expected 10, got 10
+PASS  [RAD] "5 + 5" -> expected 10, got 10
+PASS  [DEG] "10 − 4" -> expected 6, got 6
+PASS  [RAD] "10 − 4" -> expected 6, got 6
+PASS  [DEG] "5 × 5" -> expected 25, got 25
+PASS  [RAD] "5 × 5" -> expected 25, got 25
+PASS  [DEG] "20 ÷ 4" -> expected 5, got 5
+PASS  [RAD] "20 ÷ 4" -> expected 5, got 5
+PASS  [DEG] "2²" -> expected 4, got 4
+PASS  [RAD] "2²" -> expected 4, got 4
+PASS  [DEG] "√81" -> expected 9, got 9
+PASS  [RAD] "√81" -> expected 9, got 9
+PASS  [DEG] "2³" -> expected 8, got 8
+PASS  [RAD] "2³" -> expected 8, got 8
+PASS  [DEG] "log(100)" -> expected 2, got 2
+PASS  [RAD] "log(100)" -> expected 2, got 2
+PASS  [DEG] "ln(e)" -> expected 1, got 1
+PASS  [RAD] "ln(e)" -> expected 1, got 1
+PASS  [DEG] "sin(30°)" -> expected 0.5, got 0.5
+PASS  [RAD] "sin(30°)" -> expected 0.5, got 0.5
+PASS  [DEG] "cos(60°)" -> expected 0.5, got 0.5
+PASS  [RAD] "cos(60°)" -> expected 0.5, got 0.5
+PASS  [DEG] "tan(45°)" -> expected 1, got 1
+PASS  [RAD] "tan(45°)" -> expected 1, got 1
+PASS  [DEG] "5!" -> expected 120, got 120
+PASS  [RAD] "5!" -> expected 120, got 120
+PASS  [DEG] "2 × (3 + 4)" -> expected 14, got 14
+PASS  [RAD] "2 × (3 + 4)" -> expected 14, got 14
+PASS  [DEG] "2 + 3 × 4" -> expected 14, got 14
+PASS  [RAD] "2 + 3 × 4" -> expected 14, got 14
+PASS  [DEG] "(2 + 3) × 4" -> expected 20, got 20
+PASS  [RAD] "(2 + 3) × 4" -> expected 20, got 20
+PASS  [DEG] "10 − 2 − 3" -> expected 5, got 5
+PASS  [RAD] "10 − 2 − 3" -> expected 5, got 5
+PASS  [DEG] "100 ÷ 10 ÷ 5" -> expected 2, got 2
+PASS  [RAD] "100 ÷ 10 ÷ 5" -> expected 2, got 2
+PASS  [DEG] "2 × 3^2" -> expected 18, got 18
+PASS  [RAD] "2 × 3^2" -> expected 18, got 18
+PASS  [DEG] "2^3^2" -> expected 512, got 512
+PASS  [RAD] "2^3^2" -> expected 512, got 512
+PASS  [DEG] "-2^2" -> expected -4, got -4
+PASS  [RAD] "-2^2" -> expected -4, got -4
+PASS  [DEG] "(-2)^2" -> expected 4, got 4
+PASS  [RAD] "(-2)^2" -> expected 4, got 4
+PASS  [DEG] "2^-1" -> expected 0.5, got 0.5
+PASS  [RAD] "2^-1" -> expected 0.5, got 0.5
+PASS  [DEG] "-(3 + 4)" -> expected -7, got -7
+PASS  [RAD] "-(3 + 4)" -> expected -7, got -7
+PASS  [DEG] "--5" -> expected 5, got 5
+PASS  [RAD] "--5" -> expected 5, got 5
+PASS  [DEG] "5 - -3" -> expected 8, got 8
+PASS  [RAD] "5 - -3" -> expected 8, got 8
+PASS  [DEG] "5 × -3" -> expected -15, got -15
+PASS  [RAD] "5 × -3" -> expected -15, got -15
+PASS  [DEG] "+5" -> expected 5, got 5
+PASS  [RAD] "+5" -> expected 5, got 5
+PASS  [DEG] "2 × (3 + (4 − 1)) ÷ 3" -> expected 4, got 4
+PASS  [RAD] "2 × (3 + (4 − 1)) ÷ 3" -> expected 4, got 4
+PASS  [DEG] "1 ÷ 3 × 3" -> expected 1, got 1
+PASS  [RAD] "1 ÷ 3 × 3" -> expected 1, got 1
+PASS  [DEG] "0.1 + 0.2" -> expected 0.3, got 0.3
+PASS  [RAD] "0.1 + 0.2" -> expected 0.3, got 0.3
+PASS  [DEG] "1.5 × 2" -> expected 3, got 3
+PASS  [RAD] "1.5 × 2" -> expected 3, got 3
+PASS  [DEG] ".5 + .5" -> expected 1, got 1
+PASS  [RAD] ".5 + .5" -> expected 1, got 1
+PASS  [DEG] "7." -> expected 7, got 7
+PASS  [RAD] "7." -> expected 7, got 7
+PASS  [DEG] "50%" -> expected 0.5, got 0.5
+PASS  [RAD] "50%" -> expected 0.5, got 0.5
+PASS  [DEG] "200 × 10%" -> expected 20, got 20
+PASS  [RAD] "200 × 10%" -> expected 20, got 20
+PASS  [DEG] "π" -> expected 3.141592653589793, got 3.14159265359
+PASS  [RAD] "π" -> expected 3.141592653589793, got 3.14159265359
+PASS  [DEG] "2π" -> expected 6.283185307179586, got 6.28318530718
+PASS  [RAD] "2π" -> expected 6.283185307179586, got 6.28318530718
+PASS  [DEG] "e" -> expected 2.718281828459045, got 2.71828182846
+PASS  [RAD] "e" -> expected 2.718281828459045, got 2.71828182846
+PASS  [DEG] "2e" -> expected 5.43656365691809, got 5.43656365692
+PASS  [RAD] "2e" -> expected 5.43656365691809, got 5.43656365692
+PASS  [DEG] "e^2" -> expected 7.3890560989306495, got 7.38905609893
+PASS  [RAD] "e^2" -> expected 7.3890560989306495, got 7.38905609893
+PASS  [DEG] "e^(1)" -> expected 2.718281828459045, got 2.71828182846
+PASS  [RAD] "e^(1)" -> expected 2.718281828459045, got 2.71828182846
+PASS  [DEG] "√(144)" -> expected 12, got 12
+PASS  [RAD] "√(144)" -> expected 12, got 12
+PASS  [DEG] "sqrt(2)" -> expected 1.4142135623730951, got 1.41421356237
+PASS  [RAD] "sqrt(2)" -> expected 1.4142135623730951, got 1.41421356237
+PASS  [DEG] "∛27" -> expected 3, got 3
+PASS  [RAD] "∛27" -> expected 3, got 3
+PASS  [DEG] "∛(-8)" -> expected -2, got -2
+PASS  [RAD] "∛(-8)" -> expected -2, got -2
+PASS  [DEG] "abs(-5)" -> expected 5, got 5
+PASS  [RAD] "abs(-5)" -> expected 5, got 5
+PASS  [DEG] "abs(5)" -> expected 5, got 5
+PASS  [RAD] "abs(5)" -> expected 5, got 5
+PASS  [DEG] "10^3" -> expected 1000, got 1000
+PASS  [RAD] "10^3" -> expected 1000, got 1000
+PASS  [DEG] "10^(-2)" -> expected 0.01, got 0.01
+PASS  [RAD] "10^(-2)" -> expected 0.01, got 0.01
+PASS  [DEG] "1÷(4)" -> expected 0.25, got 0.25
+PASS  [RAD] "1÷(4)" -> expected 0.25, got 0.25
+PASS  [DEG] "recip(4)" -> expected 0.25, got 0.25
+PASS  [RAD] "recip(4)" -> expected 0.25, got 0.25
+PASS  [DEG] "exp(1)" -> expected 2.718281828459045, got 2.71828182846
+PASS  [RAD] "exp(1)" -> expected 2.718281828459045, got 2.71828182846
+PASS  [DEG] "ln(1)" -> expected 0, got 0
+PASS  [RAD] "ln(1)" -> expected 0, got 0
+PASS  [DEG] "log(1000)" -> expected 3, got 3
+PASS  [RAD] "log(1000)" -> expected 3, got 3
+PASS  [DEG] "log(0.001)" -> expected -3, got -3
+PASS  [RAD] "log(0.001)" -> expected -3, got -3
+PASS  [DEG] "0!" -> expected 1, got 1
+PASS  [RAD] "0!" -> expected 1, got 1
+PASS  [DEG] "10!" -> expected 3628800, got 3628800
+PASS  [RAD] "10!" -> expected 3628800, got 3628800
+PASS  [DEG] "3!+2" -> expected 8, got 8
+PASS  [RAD] "3!+2" -> expected 8, got 8
+PASS  [DEG] "2^3!" -> expected 64, got 64
+PASS  [RAD] "2^3!" -> expected 64, got 64
+PASS  [DEG] "(2+1)!" -> expected 6, got 6
+PASS  [RAD] "(2+1)!" -> expected 6, got 6
+PASS  [DEG] "-3!" -> expected -6, got -6
+PASS  [RAD] "-3!" -> expected -6, got -6
+PASS  [DEG] "3!!" -> expected 720, got 720
+PASS  [RAD] "3!!" -> expected 720, got 720
+PASS  [DEG] "170!" -> expected 7.257415615307994e+306, got 7.25741561531e+306
+PASS  [RAD] "170!" -> expected 7.257415615307994e+306, got 7.25741561531e+306
+PASS  [DEG] "0^0" -> expected 1, got 1
+PASS  [RAD] "0^0" -> expected 1, got 1
+PASS  [DEG] "2^0.5" -> expected 1.4142135623730951, got 1.41421356237
+PASS  [RAD] "2^0.5" -> expected 1.4142135623730951, got 1.41421356237
+PASS  [DEG] "2(3 + 4)" -> expected 14, got 14
+PASS  [RAD] "2(3 + 4)" -> expected 14, got 14
+PASS  [DEG] "(1+1)(2+2)" -> expected 8, got 8
+PASS  [RAD] "(1+1)(2+2)" -> expected 8, got 8
+PASS  [DEG] "7 mod 3" -> expected 1, got 1
+PASS  [RAD] "7 mod 3" -> expected 1, got 1
+PASS  [DEG] "-7 mod 3" -> expected 2, got 2
+PASS  [RAD] "-7 mod 3" -> expected 2, got 2
+PASS  [DEG] "5.5 mod 2" -> expected 1.5, got 1.5
+PASS  [RAD] "5.5 mod 2" -> expected 1.5, got 1.5
+PASS  [DEG] "Ans + 1" -> expected 42, got 42
+PASS  [RAD] "Ans × 2" -> expected 5, got 5
+PASS  [DEG] "Ans" -> expected 0, got 0
+PASS  [RAD] "Ans" -> expected 0, got 0
+PASS  [DEG] "sin(30)" -> expected 0.5, got 0.5
+PASS  [DEG] "cos(60)" -> expected 0.5, got 0.5
+PASS  [DEG] "tan(45)" -> expected 1, got 1
+PASS  [DEG] "sin(90)" -> expected 1, got 1
+PASS  [DEG] "cos(90)" -> expected 0, got 0
+PASS  [DEG] "sin(180)" -> expected 0, got 0
+PASS  [DEG] "cos(180)" -> expected -1, got -1
+PASS  [DEG] "sin(270)" -> expected -1, got -1
+PASS  [DEG] "sin(360)" -> expected 0, got 0
+PASS  [DEG] "sin(-30)" -> expected -0.5, got -0.5
+PASS  [DEG] "tan(135)" -> expected -1, got -1
+PASS  [DEG] "tan(180)" -> expected 0, got 0
+PASS  [DEG] "3sin(30)" -> expected 1.5, got 1.5
+PASS  [DEG] "asin(0.5)" -> expected 30, got 30
+PASS  [DEG] "acos(0.5)" -> expected 60, got 60
+PASS  [DEG] "atan(1)" -> expected 45, got 45
+PASS  [DEG] "asin(1)" -> expected 90, got 90
+PASS  [DEG] "tan(90)" -> expected an error, got error: tan is undefined at this angle
+PASS  [DEG] "tan(270)" -> expected an error, got error: tan is undefined at this angle
+PASS  [DEG] "asin(2)" -> expected an error, got error: asin: input must be between -1 and 1
+PASS  [DEG] "acos(-2)" -> expected an error, got error: acos: input must be between -1 and 1
+PASS  [RAD] "sin(π/2)" -> expected 1, got 1
+PASS  [RAD] "cos(π)" -> expected -1, got -1
+PASS  [RAD] "sin(π)" -> expected 0, got 0
+PASS  [RAD] "cos(π/2)" -> expected 0, got 0
+PASS  [RAD] "tan(π/4)" -> expected 1, got 1
+PASS  [RAD] "sin(30)" -> expected -0.988031624092862, got -0.988031624093
+PASS  [RAD] "asin(1)" -> expected 1.5707963267948966, got 1.57079632679
+PASS  [RAD] "acos(-1)" -> expected 3.141592653589793, got 3.14159265359
+PASS  [RAD] "atan(1)" -> expected 0.7853981633974483, got 0.785398163397
+PASS  [RAD] "tan(90)" -> expected -1.995200412208242, got -1.99520041221
+PASS  [RAD] "tan(π/2)" -> expected an error, got error: tan is undefined at this angle
+PASS  [RAD] "asin(2)" -> expected an error, got error: asin: input must be between -1 and 1
+PASS  [DEG] "1 ÷ 0" -> expected an error, got error: Cannot divide by zero
+PASS  [RAD] "1 ÷ 0" -> expected an error, got error: Cannot divide by zero
+PASS  [DEG] "0 ÷ 0" -> expected an error, got error: Cannot divide by zero
+PASS  [RAD] "0 ÷ 0" -> expected an error, got error: Cannot divide by zero
+PASS  [DEG] "5 ÷ (3 − 3)" -> expected an error, got error: Cannot divide by zero
+PASS  [RAD] "5 ÷ (3 − 3)" -> expected an error, got error: Cannot divide by zero
+PASS  [DEG] "√(-4)" -> expected an error, got error: Square root of a negative number
+PASS  [RAD] "√(-4)" -> expected an error, got error: Square root of a negative number
+PASS  [DEG] "ln(0)" -> expected an error, got error: ln: input must be greater than 0
+PASS  [RAD] "ln(0)" -> expected an error, got error: ln: input must be greater than 0
+PASS  [DEG] "ln(-1)" -> expected an error, got error: ln: input must be greater than 0
+PASS  [RAD] "ln(-1)" -> expected an error, got error: ln: input must be greater than 0
+PASS  [DEG] "log(0)" -> expected an error, got error: log: input must be greater than 0
+PASS  [RAD] "log(0)" -> expected an error, got error: log: input must be greater than 0
+PASS  [DEG] "log(-5)" -> expected an error, got error: log: input must be greater than 0
+PASS  [RAD] "log(-5)" -> expected an error, got error: log: input must be greater than 0
+PASS  [DEG] "(-1)!" -> expected an error, got error: Factorial of a negative number
+PASS  [RAD] "(-1)!" -> expected an error, got error: Factorial of a negative number
+PASS  [DEG] "2.5!" -> expected an error, got error: Factorial needs a whole number
+PASS  [RAD] "2.5!" -> expected an error, got error: Factorial needs a whole number
+PASS  [DEG] "171!" -> expected an error, got error: Factorial too large (maximum is 170!)
+PASS  [RAD] "171!" -> expected an error, got error: Factorial too large (maximum is 170!)
+PASS  [DEG] "0^-1" -> expected an error, got error: Cannot divide by zero
+PASS  [RAD] "0^-1" -> expected an error, got error: Cannot divide by zero
+PASS  [DEG] "(-8)^(1/3)" -> expected an error, got error: Invalid power (negative base with a fractional exponent)
+PASS  [RAD] "(-8)^(1/3)" -> expected an error, got error: Invalid power (negative base with a fractional exponent)
+PASS  [DEG] "10^400" -> expected an error, got error: Result too large
+PASS  [RAD] "10^400" -> expected an error, got error: Result too large
+PASS  [DEG] "exp(1000)" -> expected an error, got error: Result too large
+PASS  [RAD] "exp(1000)" -> expected an error, got error: Result too large
+PASS  [DEG] "recip(0)" -> expected an error, got error: Cannot divide by zero
+PASS  [RAD] "recip(0)" -> expected an error, got error: Cannot divide by zero
+PASS  [DEG] "7 mod 0" -> expected an error, got error: Cannot divide by zero (mod 0)
+PASS  [RAD] "7 mod 0" -> expected an error, got error: Cannot divide by zero (mod 0)
+PASS  [DEG] "9999999999999999999999999999999999999..." -> expected an error, got error: Number too large
+PASS  [RAD] "9999999999999999999999999999999999999..." -> expected an error, got error: Number too large
+PASS  [DEG] "" -> expected an error, got error: Empty expression
+PASS  [RAD] "" -> expected an error, got error: Empty expression
+PASS  [DEG] "   " -> expected an error, got error: Empty expression
+PASS  [RAD] "   " -> expected an error, got error: Empty expression
+PASS  [DEG] "2 +" -> expected an error, got error: Incomplete expression
+PASS  [RAD] "2 +" -> expected an error, got error: Incomplete expression
+PASS  [DEG] "2 + × 3" -> expected an error, got error: Unexpected "×"
+PASS  [RAD] "2 + × 3" -> expected an error, got error: Unexpected "×"
+PASS  [DEG] "× 3" -> expected an error, got error: Unexpected "×"
+PASS  [RAD] "× 3" -> expected an error, got error: Unexpected "×"
+PASS  [DEG] "()" -> expected an error, got error: Unexpected ")"
+PASS  [RAD] "()" -> expected an error, got error: Unexpected ")"
+PASS  [DEG] ")" -> expected an error, got error: Unexpected ")"
+PASS  [RAD] ")" -> expected an error, got error: Unexpected ")"
+PASS  [DEG] "(2 + 3))" -> expected an error, got error: Unmatched ")"
+PASS  [RAD] "(2 + 3))" -> expected an error, got error: Unmatched ")"
+PASS  [DEG] "sin()" -> expected an error, got error: Unexpected ")"
+PASS  [RAD] "sin()" -> expected an error, got error: Unexpected ")"
+PASS  [DEG] "sin(" -> expected an error, got error: Incomplete expression
+PASS  [RAD] "sin(" -> expected an error, got error: Incomplete expression
+PASS  [DEG] "sin" -> expected an error, got error: Incomplete expression
+PASS  [RAD] "sin" -> expected an error, got error: Incomplete expression
+PASS  [DEG] "2 3" -> expected an error, got error: Unexpected number "3"
+PASS  [RAD] "2 3" -> expected an error, got error: Unexpected number "3"
+PASS  [DEG] "1.2.3" -> expected an error, got error: Unexpected number ".3"
+PASS  [RAD] "1.2.3" -> expected an error, got error: Unexpected number ".3"
+PASS  [DEG] "!" -> expected an error, got error: Unexpected "!"
+PASS  [RAD] "!" -> expected an error, got error: Unexpected "!"
+PASS  [DEG] "%" -> expected an error, got error: Unexpected "%"
+PASS  [RAD] "%" -> expected an error, got error: Unexpected "%"
+PASS  [DEG] "abc" -> expected an error, got error: Unknown name "abc"
+PASS  [RAD] "abc" -> expected an error, got error: Unknown name "abc"
+PASS  [DEG] "alert(1)" -> expected an error, got error: Unknown name "alert"
+PASS  [RAD] "alert(1)" -> expected an error, got error: Unknown name "alert"
+PASS  [DEG] "process.exit()" -> expected an error, got error: Unknown name "proce"
+PASS  [RAD] "process.exit()" -> expected an error, got error: Unknown name "proce"
+PASS  [DEG] "1;2" -> expected an error, got error: Unexpected character ";"
+PASS  [RAD] "1;2" -> expected an error, got error: Unexpected character ";"
+PASS  [DEG] "2 $ 3" -> expected an error, got error: Unexpected character "$"
+PASS  [RAD] "2 $ 3" -> expected an error, got error: Unexpected character "$"
+PASS  [DEG] "__proto__" -> expected an error, got error: Unexpected character "_"
+PASS  [RAD] "__proto__" -> expected an error, got error: Unexpected character "_"
+PASS  [DEG] "constructor" -> expected an error, got error: Unknown name "const"
+PASS  [RAD] "constructor" -> expected an error, got error: Unknown name "const"
+PASS  [DEG] "(\"a\")" -> expected an error, got error: Unexpected character """
+PASS  [RAD] "(\"a\")" -> expected an error, got error: Unexpected character """
+PASS  [DEG] "(((((((((((((((((((((((((((((((((((((..." -> expected an error, got error: Expression is nested too deeply
+PASS  [RAD] "(((((((((((((((((((((((((((((((((((((..." -> expected an error, got error: Expression is nested too deeply
+PASS  [DEG] "-------------------------------------..." -> expected an error, got error: Expression is nested too deeply
+PASS  [RAD] "-------------------------------------..." -> expected an error, got error: Expression is nested too deeply
+PASS  [DEG] "1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1..." -> expected an error, got error: Expression is too long
+PASS  [RAD] "1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1..." -> expected an error, got error: Expression is too long
+PASS  [DEG] "(2 + 3" -> expected 5, got 5
+PASS  [RAD] "(2 + 3" -> expected 5, got 5
+PASS  [DEG] "2 × (3 + (4" -> expected 14, got 14
+PASS  [RAD] "2 × (3 + (4" -> expected 14, got 14
+PASS  [DEG] "sin(30" -> expected 0.5, got 0.5
+PASS  [format] formatNumber(0.30000000000000004) -> expected "0.3", got "0.3"
+PASS  [format] formatNumber(0.3333333333333333) -> expected "0.333333333333", got "0.333333333333"
+PASS  [format] formatNumber(2.5) -> expected "2.5", got "2.5"
+PASS  [format] formatNumber(-1234.5678) -> expected "-1234.5678", got "-1234.5678"
+PASS  [format] formatNumber(123456789012) -> expected "123456789012", got "123456789012"
+PASS  [format] formatNumber(1000000000000) -> expected "1e+12", got "1e+12"
+PASS  [format] formatNumber(150000000000000000000) -> expected "1.5e+20", got "1.5e+20"
+PASS  [format] formatNumber(-2.5e+25) -> expected "-2.5e+25", got "-2.5e+25"
+PASS  [format] formatNumber(0.000001) -> expected "0.000001", got "0.000001"
+PASS  [format] formatNumber(1e-7) -> expected "1e-7", got "1e-7"
+PASS  [format] formatNumber(2.5e-9) -> expected "2.5e-9", got "2.5e-9"
+PASS  [format] formatNumber(0) -> expected "0", got "0"
+PASS  [input ] toInputString(7) -> expected "7", got "7"
+PASS  [input ] toInputString(-5) -> expected "(-5)", got "(-5)"
+PASS  [input ] toInputString(150000000000000000000) -> expected "(1.5×10^20)", got "(1.5×10^20)"
+PASS  [input ] toInputString(2.5e-9) -> expected "(2.5×10^-9)", got "(2.5×10^-9)"
+PASS  [state ] engine still works after errors -> 2 + 2 = 4
+289 passed, 0 failed, 289 tests in total.
+
+=== INTERFACE TESTS: headless Chromium (Playwright), final run ===
+PASS  typing 75+3 shows expression
+PASS  live preview
+PASS  75+3 = 78
+PASS  sub line after =
+PASS  continue with answer: 78×2
+PASS  2×(3+4)
+PASS  DEG sin(30)
+PASS  DEG chip pressed
+PASS  RAD sin(30)
+PASS  RAD chip pressed
+PASS  RAD sin(π÷2)
+PASS  √81 (auto-close bracket)
+PASS  5!
+PASS  log(100)
+PASS  ln(e)
+PASS  2³
+PASS  2^10
+PASS  1÷0 error message
+PASS  1÷0 keeps expression
+PASS  error cleared after editing
+PASS  √(−4) error
+PASS  +/− makes (−5
+PASS  (−5)² = 25
+PASS  +/− on a result
+PASS  leading zeros collapse
+PASS  only one decimal point
+PASS  . alone becomes 0.
+PASS  operator replaced: 5+× -> 5×3
+PASS  200×10%
+PASS  DEL removes "sin(" at once
+PASS  Ans + 1
+PASS  99999999×99999999 in scientific notation
+PASS  tiny number in scientific notation
+PASS  memory badge visible after M+
+PASS  MR after 5 + 2
+PASS  MR after M−3
+PASS  memory badge hidden after MC
+PASS  history opens
+PASS  history has items
+PASS  history closes after picking
+PASS  keyboard 9*9 Enter
+PASS  Backspace after result clears
+PASS  keyboard r81 Enter = √81
+PASS  keyboard 2^3!
+PASS  keyboard d toggles RAD
+PASS  random letters do not crash
+PASS  copy result to clipboard
+PASS  theme -> light
+PASS  theme persists after reload
+PASS  history persists after reload
+PASS  clear history
+PASS  mobile: sci hidden by default
+PASS  mobile: sci opens
+PASS  mobile tap sin(30)=0.5
+PASS  mobile: no horizontal page scroll
+PASS  mobile: long number no page overflow
+PASS  320px phone: no horizontal scroll
+PASS  tablet: sci panel visible
+
+58 passed, 0 failed
+Page errors: none
+
+=== NOTE ===
+In one earlier full run, 2 checks ('theme persists after reload', 'history persists after reload') failed on file://.
+A 15-round loop gave 14/15 on file:// (the data had been saved before reload but was not returned after it) and 15/15 on http://.
+Treated as a headless-Chromium file:// storage quirk; use Live Server (http) for reliable saving.
